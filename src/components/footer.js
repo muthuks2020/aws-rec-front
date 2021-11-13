@@ -8,9 +8,9 @@ export const Footer = () => {
     return (
         <div className="footer-div">
             <div className="footer">
-                <p>© 2021, CodableX Pvt Ltd. or its affiliates. All rights reserved. </p>
+                <p>© 2021, Muthu </p>
                 <div className="logos">
-                    <a href='https://www.linkedin.com/company/codablex' target="_blank" rel='noreferrer'><img src={linkedInLogo} alt='linkedInLogo'/></a>
+                    <a href='https://www.linkedin.com/in/muthukumaraswamy-b-08894369/' target="_blank" rel='noreferrer'><img src={linkedInLogo} alt='linkedInLogo'/></a>
                     <img src={facebookLogo} alt='facebookLogo'/>
                     <img src={twitterLogo} alt='twitterLogo'/>
                     <img src={instagramLogo} alt='instagramLogo'/>
