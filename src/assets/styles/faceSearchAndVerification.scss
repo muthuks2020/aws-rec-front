@@ -1,0 +1,24 @@
+.FS_ItemHeading {
+  font-size: 18px;
+}
+.custom-div-css {
+  width: fit-content;
+  display: flex;
+}
+.item-div:hover {
+  cursor: pointer;
+}
+.main-div-FSV {
+  min-height: calc(100vh - 120px);
+  padding: 30px 0 100px 0;
+}
+
+@media (max-width: 500px) {
+  .custom-div-css {
+    display: block;
+  }
+  .main-div-FSV {
+    background-size: unset;
+    padding: 30px 0 215px 0;
+  }
+}

@@ -1,0 +1,16 @@
+$primaryColor: #2F1160;
+
+.result-checkboxes-div {
+    border: 2px dashed $primaryColor;
+    border-radius: 4px;
+    padding: 10px;
+    // background-color: #f0f0f0;
+    width: 200px;
+    .checkbox-label {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        color: $primaryColor;
+        margin-left: 10px;
+    }
+}

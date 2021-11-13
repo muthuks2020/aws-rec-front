@@ -1,0 +1,49 @@
+$primaryColor: #2f1160;
+
+.footer-div {
+  background-image: url("./../images/BackgroundImage.svg");
+  background-repeat: no-repeat;
+  background-size: 80vw 80vh;
+  background-position: bottom;
+  padding: 20px 0 20px 0;
+  // width: 1069px;
+  // margin: auto;
+}
+
+.footer {
+  width: 100%;
+  // background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  p {
+    margin: 0;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: $primaryColor;
+  }
+  .logos {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    p {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .logos {
+      margin-right: 10px;
+    }
+  }
+}

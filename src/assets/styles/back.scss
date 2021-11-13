@@ -1,0 +1,20 @@
+$primaryColor: #2F1160;
+
+.left-arrow-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+    width: fit-content;
+    margin-bottom: 30px;
+    .back-text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 0 10px;
+        color: $primaryColor;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,19 @@
+.image-placeholder-container {
+  // height: unset;
+}
+
+.table td,
+.table th {
+  vertical-align: middle !important;
+}
+.main-div-ARF {
+  min-height: calc(100vh - 120px);
+  padding: 30px 0 100px 0;
+}
+
+@media (max-width: 500px) {
+  .main-div-ARF {
+    background-size: unset;
+    padding: 30px 0 215px 0;
+  }
+}

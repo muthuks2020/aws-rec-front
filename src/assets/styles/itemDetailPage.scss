@@ -1,0 +1,13 @@
+.item-main-div {
+  min-height: calc(100vh - 120px);
+  padding: 30px 0 100px 0;
+  // width: 1069px;
+  // margin: auto;
+}
+
+@media (max-width: 500px) {
+  .item-main-div {
+    background-size: unset;
+    padding: 30px 0 215px 0;
+  }
+}

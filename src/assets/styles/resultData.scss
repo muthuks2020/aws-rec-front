@@ -1,0 +1,29 @@
+$primaryColor: #2F1160;
+
+.result-data-div {
+    border: 2px dashed $primaryColor;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    .detail-item {
+        padding: 10px;
+        background-color: white;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        label {
+            margin: 0;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 700;
+            color: $primaryColor;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .result-data-div {
+        margin: 10px
+    }
+}

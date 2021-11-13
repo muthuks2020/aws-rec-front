@@ -1,0 +1,72 @@
+$primaryColor: #2f1160;
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%; /* only if you want fixed height */
+}
+
+.image-placeholder-container {
+  height: 150px;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fbfafc;
+}
+
+.action-link-all {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.action-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: $primaryColor;
+    text-align: center;
+    margin: 0;
+  }
+  img {
+    margin-left: 20px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.heading {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: $primaryColor;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.heading_bold {
+  @extend .heading;
+  font-weight: 700;
+  font-size: 39px;
+}
+
+.description {
+  color: $primaryColor;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 20px;
+  }
+}

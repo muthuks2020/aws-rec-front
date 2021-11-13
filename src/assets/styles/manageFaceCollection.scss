@@ -1,0 +1,20 @@
+$primaryColor: #2f1160;
+
+.input-field {
+  width: 300px !important;
+  height: 40px !important;
+  border: 1px solid $primaryColor !important;
+  border-radius: 3px !important;
+  margin: 15px 0 !important;
+}
+.main-div-MFC {
+  min-height: calc(100vh - 120px);
+  padding: 30px 0 100px 0;
+}
+
+@media (max-width: 500px) {
+  .main-div-MFC {
+    background-size: unset;
+    padding: 30px 0 215px 0;
+  }
+}
